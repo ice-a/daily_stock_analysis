@@ -1,0 +1,12 @@
+[
+  { "code": "600519", "name": "贵州茅台", "market": "cn" },
+  { "code": "000858", "name": "五粮液", "market": "cn" },
+  { "code": "601318", "name": "中国平安", "market": "cn" },
+  { "code": "300750", "name": "宁德时代", "market": "cn" },
+  { "code": "hk00700", "name": "腾讯控股", "market": "hk" },
+  { "code": "hk09988", "name": "阿里巴巴", "market": "hk" },
+  { "code": "AAPL", "name": "Apple", "market": "us" },
+  { "code": "NVDA", "name": "NVIDIA", "market": "us" },
+  { "code": "TSLA", "name": "Tesla", "market": "us" },
+  { "code": "7203.T", "name": "Toyota", "market": "jp" }
+]
