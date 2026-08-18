@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nuxtjs",
+  "buildCommand": "nuxt build",
+  "outputDirectory": ".output",
+  "env": {
+    "MONGODB_URI": "@daily_stock_analysis_mongodb_uri",
+    "MONGODB_DB": "daily_stock_analysis",
+    "CRON_SECRET": "@daily_stock_analysis_cron_secret"
+  },
+  "crons": [
+    {
+      "path": "/api/cron/daily",
+      "schedule": "0 10 * * 1-5"
+    }
+  ]
+}

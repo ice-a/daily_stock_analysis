@@ -1,0 +1,17 @@
+# Nuxt / Node
+node_modules/
+.output/
+.nuxt/
+.data/
+*.log
+
+# env
+.env
+.env.local
+.env.*.local
+# 模板文件需入库（覆盖根目录 .gitignore 的 .env.* 规则）
+!.env.example
+
+# editor
+.vscode/
+.idea/
